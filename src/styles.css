@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.lazyload::not([src]) {
+  visibility: hidden;
+}
+.fade-in {
+  opacity: 0;
+}
+.lazyloaded {
+  opacity: 1;
+  /* transition: opacity 1500ms 500ms; */
+}
+
+/* img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 10;
+} */
